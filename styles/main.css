@@ -1,0 +1,47 @@
+nav
+{
+    background-color: darkgoldenrod;
+    
+    padding: 5px;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: gray;
+    display: inline;
+    
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: black;
+}
+
+#active 
+{
+    background-color: black;
+}
+
+body
+{
+    font-family: verdana;
+    width 80%;
+    background-color: black;
+    color: white;
+}
