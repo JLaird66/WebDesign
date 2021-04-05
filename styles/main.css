@@ -1,7 +1,11 @@
+header
+{
+    padding: 10px;
+    background-color: black;
+}
 nav
 {
     background-color: darkgoldenrod;
-    
     padding: 5px;
 }
 
@@ -41,7 +45,47 @@ nav ul li:hover
 body
 {
     font-family: verdana;
-    width 80%;
     background-color: black;
     color: white;
+}
+
+.ModSection
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+a
+{
+    color:white;
+}
+
+footer
+{
+    clear: both;
+    background-color: darkgoldenrod;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: black;
+    
+    text-align: center;
+}
+
+.Choice
+{
+    text-align: center;
+    float: left;
+    Background-color: grey;
+    color: black;
+    height: 25%;
+    width: 25%;
+    padding: 10px;
+    margin: 20px;
 }
